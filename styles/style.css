@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-
 .btn-primary {
     color: #005FAC;
     width: 160px;
@@ -13,13 +12,16 @@
     border-radius: 5px;
     padding: 20px 25px;
 }
+.fa-solid, .fa-check{
+    color:  #16D887;
+}
+
 /* banner style for the header */
 .header {
     height: 808px;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
 }
-
 .banner-title {
     color: #FFFFFF;
     width: 525px;
@@ -30,7 +32,6 @@
     margin: 216px 230px 364px 845px;
     position: absolute;
 }
-
 .banner-description {
     color: #FFFFFF;
     width: 494px;
@@ -39,7 +40,6 @@
     text-align: right;
     position: absolute;
 }
-
 .btn-contact {
     margin: 578px 230px 166px 1210px;
     position: absolute;
@@ -53,12 +53,12 @@ main{
 .previous-year{
     display:flex;
     gap:120px;
+    height: 720px;
 }
 .previous-year-image {
     margin-top: 131px;
     margin-left: 206px;
 }
-
 .section-title {
     width: 288px;
     height: 94px;
@@ -69,14 +69,17 @@ main{
 }
 
 .section-description {
+    color: #444343;
     width: 416px;
     height: 104px;
     margin-top: 24px;
-    margin-bottom: 16px;
+}
+.section-list {
+    color: #444343;
+    margin-bottom: 8px;
 }
 
 /* my plan section */
-
 .my-plans .section-title{
     color: #151414;
     font-weight: 700;
@@ -104,7 +107,6 @@ main{
     margin-top: 24px;
     margin-bottom: 16px;
 }
-
 .plan-description {
     color: #737272;
     font-weight: 500;
@@ -115,10 +117,8 @@ main{
 /* main section banner */
 .main-section-banner {
     width: 1140px;
-    height: 300px;
-    margin-top: 130px;
     margin-left: 230px;
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     border-radius: 8px;
 }
 .section-container .section-title {
@@ -131,7 +131,6 @@ main{
     padding-left: 64px;
     margin-bottom: 24px;
 }
-
 .section-container .btn-primary {
     margin-left: 64px;
     margin-bottom: 60px;
@@ -139,21 +138,37 @@ main{
 
 /* motivational quotes section */
 .motto-quotes {
-
+    background-color: white;
+    height:850px;
 }
 .motto-quotes-container{
     display: flex;
-    gap: 200px;
-    margin-top: 130px;
-    margin-left: 230px;
+    gap: 100px;
+    margin-left: 100px;
 }
 .motto-quotes .section-title {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 50px;
-    margin-left: 230px;
+    padding-top: 15px;
+    padding-left: 600px;
+}
+.quote{
+    width:500px;
+    height:70px;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+}
+.quote-author {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 8px;
 }
 /* footer section */
 .footer {
@@ -161,7 +176,6 @@ main{
     gap: 330px;
     background-color: #151414;
     height: 577px;
-    margin-top: 2651px;
     color: #F8F8F8;
 }
 .footer-info{
